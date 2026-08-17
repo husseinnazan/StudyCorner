@@ -105,7 +105,6 @@ studycorner/
 ├── app.py           # FastAPI application instance and route definitions
 ├── database.py      # Data layer: NoteDB, TaskDB, PomoDB
 ├── schemas.py       # Pydantic request and response models
-├── main.py          # Entry point
 ├── requirements.txt
 └── .gitignore
 ```
