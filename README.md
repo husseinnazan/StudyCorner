@@ -129,12 +129,9 @@ studycorner/
 **2026-08-17**
 - Tasks endpoints added, including due dates and a dedicated completion endpoint
 - Pomodoro endpoints added, including automatic work/break alternation
-- `.gitignore` corrected to exclude the local database file
-- Fixed `requirements.txt` filename
 
 **2026-08-16**
 - Initial FastAPI and SQLite setup
 - Notes endpoints added
-- Fixed a `sqlite3.ProgrammingError` caused by SQLite's default same-thread restriction, resolved with `check_same_thread=False`
 - Added 404 handling on update and delete operations
 - Create endpoints now return the full created object instead of an empty response
